@@ -1,6 +1,6 @@
 from math import hypot
 
-
+# 一些魔术方法的使用
 class Vector:
     def __init__(self, x=0, y=0):
         self.x = x
