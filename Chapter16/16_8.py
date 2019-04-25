@@ -25,8 +25,8 @@ def demo_exc_handling():
 
 
 if __name__ == '__main__':
-    exc_coro = demo_exc_handling()
-    next(exc_coro)
+    exc_coro = demo_exc_handling() # 创建这个协程的实例
+    next(exc_coro)  # 预激这个协程
     exc_coro.send(10)
     # exc_coro.close()
     exc_coro.throw(DemoException) # gen.throw()用于抛出一个异常
