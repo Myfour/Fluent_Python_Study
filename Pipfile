@@ -12,6 +12,7 @@ ipython = "*"
 requests = "*"
 tqdm = "*"
 aiohttp = "*"
+flask = "*"
 
 [requires]
 python_version = "3.6"
